@@ -8,5 +8,6 @@ sed -i "s/<VirtualHost \*:80>/<VirtualHost *:$PORT>/" /etc/apache2/sites-enabled
 
 # Убираем предупреждение о ServerName
 echo "ServerName localhost" >> /etc/apache2/apache2.conf
+echo "port 1000"
 
 exec apache2-foreground
