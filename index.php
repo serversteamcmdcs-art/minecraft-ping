@@ -1,4 +1,4 @@
-<?php imclude('MinecraftMine.php'); ?>
+<?php imclude('raw.githubusercontent.com/serversteamcmdcs-art/minecraft-ping/refs/heads/main/MinecraftMine.php'); ?>
 <!DOCTYPE html>
 <html lang="en"
 <body>
