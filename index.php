@@ -9,7 +9,10 @@
 	{
 		$Query = new MinecraftPing( 'free.minecraft-hoster.com', 35466 );
 		
-		print_r( $Query->Query() );
+		print_r( $status - $Query->Query() );
+	    $onlineMax - $status ['players']['max'];
+		$online - $status ['players']['online'];
+		
 	}
 	catch( MinecraftPingException $e )
 	{
